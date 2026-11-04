@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ev2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#ev2Grad)" />
+  <circle cx="100" cy="300" r="160" fill="#ffffff" opacity="0.08" />
+  <g transform="translate(80, 70)">
+    <rect width="130" height="34" rx="17" fill="#ffffff" opacity="0.2" />
+    <text x="65" y="22" fill="#ffffff" font-family="'Poppins', sans-serif" font-size="13" font-weight="700" text-anchor="middle">UPCOMING EVENT</text>
+    <text x="0" y="100" fill="#ffffff" font-family="'Poppins', sans-serif" font-size="32" font-weight="800">SWACHHTA HI SEVA</text>
+    <text x="0" y="140" fill="#6ee7b7" font-family="'Poppins', sans-serif" font-size="32" font-weight="800">MEGA CLEAN DRIVE</text>
+    <text x="0" y="190" fill="#e2e8f0" font-family="'Inter', sans-serif" font-size="16">📍 MNIT Campus &amp; Malviya Nagar Vicinity</text>
+    <text x="0" y="220" fill="#a7f3d0" font-family="'Inter', sans-serif" font-size="15" font-weight="600">📅 November 22, 2026 | 07:00 AM - 11:00 AM</text>
+  </g>
+</svg>
