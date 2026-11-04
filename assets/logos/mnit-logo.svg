@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mnitNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2b5c" />
+      <stop offset="100%" stop-color="#071739" />
+    </linearGradient>
+    <linearGradient id="mnitGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb703" />
+      <stop offset="100%" stop-color="#fb8500" />
+    </linearGradient>
+    <filter id="gearShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Outer Shield / Circle Base -->
+  <circle cx="200" cy="200" r="190" fill="#ffffff" stroke="#0f2b5c" stroke-width="8" />
+  <circle cx="200" cy="200" r="176" fill="url(#mnitNavy)" />
+  <circle cx="200" cy="200" r="148" fill="#ffffff" />
+
+  <!-- Circular Text Outer -->
+  <path id="mnitTextTop" d="M 60,200 A 140,140 0 1,1 340,200" fill="none" />
+  <path id="mnitTextBottom" d="M 340,200 A 140,140 0 0,1 60,200" fill="none" />
+
+  <text fill="#0f2b5c" font-family="'Poppins', sans-serif" font-size="16.5" font-weight="800" letter-spacing="3.5">
+    <textPath href="#mnitTextTop" xlink:href="#mnitTextTop" startOffset="50%" text-anchor="middle">
+      MALAVIYA NATIONAL INSTITUTE OF TECHNOLOGY
+    </textPath>
+  </text>
+  <text fill="#fb8500" font-family="'Poppins', sans-serif" font-size="18" font-weight="800" letter-spacing="5">
+    <textPath href="#mnitTextBottom" xlink:href="#mnitTextBottom" startOffset="50%" text-anchor="middle">
+      JAIPUR • ESTD. 1963
+    </textPath>
+  </text>
+
+  <!-- Inner Crest -->
+  <circle cx="200" cy="200" r="116" fill="url(#mnitNavy)" stroke="#ffb703" stroke-width="4" />
+
+  <!-- Inner Cogwheel symbolizing Technology & Industry -->
+  <g fill="#ffb703" filter="url(#gearShadow)">
+    <circle cx="200" cy="200" r="75" fill="#071739" stroke="#ffb703" stroke-width="6" />
+    <!-- Gear teeth around rim -->
+    <rect x="194" y="115" width="12" height="15" rx="3" fill="#ffb703" />
+    <rect x="194" y="270" width="12" height="15" rx="3" fill="#ffb703" />
+    <rect x="115" y="194" width="15" height="12" rx="3" fill="#ffb703" />
+    <rect x="270" y="194" width="15" height="12" rx="3" fill="#ffb703" />
+    <rect x="138" y="138" width="14" height="14" rx="3" transform="rotate(45 145 145)" fill="#ffb703" />
+    <rect x="248" y="248" width="14" height="14" rx="3" transform="rotate(45 255 255)" fill="#ffb703" />
+    <rect x="138" y="248" width="14" height="14" rx="3" transform="rotate(-45 145 255)" fill="#ffb703" />
+    <rect x="248" y="138" width="14" height="14" rx="3" transform="rotate(-45 255 145)" fill="#ffb703" />
+  </g>
+
+  <!-- Central Knowledge Lamp (Deepam / Jyoti) & Open Book -->
+  <g transform="translate(200, 195)">
+    <!-- Open Book -->
+    <path d="M -45,15 C -25,5 -10,12 0,18 C 10,12 25,5 45,15 L 40,32 C 22,24 10,28 0,34 C -10,28 -22,24 -40,32 Z" fill="#ffffff" stroke="#ffb703" stroke-width="2" />
+    <line x1="0" y1="18" x2="0" y2="34" stroke="#ffb703" stroke-width="2" />
+
+    <!-- Lamp Body -->
+    <path d="M -22,-5 C -22,12 22,12 22,-5 C 10,-8 -10,-8 -22,-5 Z" fill="url(#mnitGold)" stroke="#ffffff" stroke-width="1.5" />
+    <path d="M -5,10 L -12,20 L 12,20 L 5,10 Z" fill="#ffb703" />
+
+    <!-- Flame / Knowledge Jyoti -->
+    <path d="M 0,-42 C 12,-28 15,-18 7,-6 C 2,-2 -2,-2 -7,-6 C -15,-18 -12,-28 0,-42 Z" fill="#ff3838" />
+    <path d="M 0,-34 C 7,-24 8,-16 4,-8 C 1,-5 -1,-5 -4,-8 C -8,-16 -7,-24 0,-34 Z" fill="#ffd166" />
+  </g>
+
+  <!-- Motto Banner Ribbon -->
+  <g transform="translate(200, 310)">
+    <rect x="-85" y="-12" width="170" height="24" rx="6" fill="#fb8500" stroke="#ffffff" stroke-width="1.5" />
+    <text x="0" y="5" fill="#0f2b5c" font-family="'Poppins', sans-serif" font-size="11" font-weight="800" text-anchor="middle">
+      योगः कर्मसु कौशलम्
+    </text>
+  </g>
+</svg>
